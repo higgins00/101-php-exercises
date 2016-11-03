@@ -14,14 +14,14 @@
 
 3. **Date Calculator:** Given three different numbers representing the day, month, and year of a date, write a function that returns the number of days it has been since that date occurred. You do not need to account for leap years. 
 
-This problem is slightly more complicated; break it down in stages:
+    This problem is slightly more complicated; break it down in stages:
 
- - First, write your function so that it only takes a number representing the year and returns the number of years that have passed since the year in the string.
-    + Ex: `dateCalculator(1999)`; should return `17`
- - Then, alter your function so that is takes an argument for the year and month and returns the number of months that have passed.
-    + Ex: `dateCalculator(06, 2016)`; should return `5`
- - Then, alter your function so that it still takes arguments for year and month but returns the number of days that have passed in those months. 
- - Finally, add a third argument to your function to represent days and alter your function to calculate the precise number of days that have passed.
+     - First, write your function so that it only takes a number representing the year and returns the number of years that have passed since the year in the string.
+        + Ex: `dateCalculator(1999)`; should return `17`
+     - Then, alter your function so that is takes an argument for the year and month and returns the number of months that have passed.
+        + Ex: `dateCalculator(06, 2016)`; should return `5`
+     - Then, alter your function so that it still takes arguments for year and month but returns the number of days that have passed in those months. 
+     - Finally, add a third argument to your function to represent days and alter your function to calculate the precise number of days that have passed.
 
 ## Running Your Code
 
