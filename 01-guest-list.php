@@ -7,5 +7,5 @@
 	$guests = array();
 
 	// Call the function, passing in the $guests array:
-	returnRsvps($guests);
+	echo returnRsvps($guests);
 ?>

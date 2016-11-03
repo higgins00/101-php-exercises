@@ -14,5 +14,5 @@
 	);
 
 	// Call the function, passing in the $players array.
-	returnRsvps($players);
+	echo returnRsvps($players);
 ?>
