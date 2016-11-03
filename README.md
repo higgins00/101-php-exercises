@@ -2,8 +2,9 @@
 
 ## Getting Started
 
-Fork this repository
-`git clone`
+1. Fork this repository
+2. Copy the SSH key of your forked repository
+3. `git clone` it in your local Code folder
 
 ## Exercises
 
