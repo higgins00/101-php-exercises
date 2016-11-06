@@ -14,7 +14,7 @@
 
 	$lastPerson = array_pop($guests); // c
 	$rsvpNames = implode(", ", $guests); // a, b
-	$rsvpNames .= " and ".$lastPerson; // a, b and c
+	$rsvpNames .= ", and ".$lastPerson; // a, b and c
 
 
 	// Call the function, passing in the $guests array:
