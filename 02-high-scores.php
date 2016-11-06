@@ -1,6 +1,5 @@
 <?php
-	function highScores($array) {
-		// Your function will be written here.
+	function highScores($players) {
 	}
 
 	// Use this array.
@@ -13,6 +12,11 @@
 		"Pearl" => 81,
 	);
 
-	// Call the function, passing in the $players array.
-	echo returnRsvps($players);
+	foreach ($players as $key => $highScores) {
+    	if ($highScores > 90) 
+    		echo $key . ' : ' . "$highScores<br />\n";
+    }
+	
+
 ?>
+
