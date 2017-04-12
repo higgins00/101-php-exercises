@@ -9,11 +9,9 @@
 	);
 
 	$returnRsvps = count($guests);
-
-	$lastPerson = array_pop($guests); // last guest's name
-	$rsvpNames = implode(", ", $guests); // all other guests
+	$lastPerson = array_pop($guests); // pop last guest's name
+	$rsvpNames = implode(", ", $guests); // add comma to all other guests
 	$rsvpNames .= ", and ".$lastPerson; // guests and last guest
-
 
 	 echo "Your event has " . $returnRsvps . " RSVPs: " . $rsvpNames . ".";
 ?>
